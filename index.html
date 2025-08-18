@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina Preparadora - Performance e Estilo Automotivo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="badge">
+                <i class="fas fa-bolt"></i>
+                Especialistas em Performance
+            </div>
+            <h1 class="hero-title">
+                Potencialize Seu Carro:
+                <span class="highlight">Performance e Estilo</span>
+                em Um Só Lugar!
+            </h1>
+            <p class="hero-subtitle">
+                Especialistas em preparação automotiva, personalização e manutenção de alta performance, 
+                transformando sonhos em realidade sobre rodas.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="openWhatsApp()">
+                    <i class="fab fa-whatsapp"></i>
+                    Solicite um Orçamento Agora!
+                </button>
+                <button class="btn btn-secondary" onclick="scrollToSection('services')">
+                    <i class="fas fa-chevron-right"></i>
+                    Conheça Nossos Serviços
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">
+                    <i class="fas fa-wrench"></i>
+                    Nossos Serviços
+                </div>
+                <h2 class="section-title">
+                    Elevando o Padrão da Sua
+                    <span class="highlight">Paixão Automotiva</span>
+                </h2>
+                <p class="section-description">
+                    Na nossa oficina, entendemos que seu carro é mais do que um meio de transporte; 
+                    é uma extensão da sua personalidade e paixão. Oferecemos uma gama completa de 
+                    serviços especializados para garantir que seu veículo atinja seu potencial máximo.
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Preparação de Motores</h3>
+                    <p>Remapeamento de ECU, turbos, superchargers e otimização completa para máxima performance.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-chevron-right"></i> Remapeamento ECU</li>
+                        <li><i class="fas fa-chevron-right"></i> Instalação de Turbos</li>
+                        <li><i class="fas fa-chevron-right"></i> Sistemas de Exaustão</li>
+                        <li><i class="fas fa-chevron-right"></i> Otimização de Injeção</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Suspensão e Freios</h3>
+                    <p>Sistemas de suspensão esportiva e freios de alta performance para segurança e controle.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-chevron-right"></i> Suspensão Esportiva</li>
+                        <li><i class="fas fa-chevron-right"></i> Freios Brembo</li>
+                        <li><i class="fas fa-chevron-right"></i> Ajustes Personalizados</li>
+                        <li><i class="fas fa-chevron-right"></i> Estabilidade Avançada</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-sparkles"></i>
+                    </div>
+                    <h3>Estética Automotiva</h3>
+                    <p>Polimento técnico, vitrificação e detalhamento para manter seu carro impecável.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-chevron-right"></i> Polimento Técnico</li>
+                        <li><i class="fas fa-chevron-right"></i> Vitrificação</li>
+                        <li><i class="fas fa-chevron-right"></i> Proteção de Pintura</li>
+                        <li><i class="fas fa-chevron-right"></i> Detalhamento Completo</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Personalização</h3>
+                    <p>Rodas exclusivas, kits aerodinâmicos e customização completa do seu veículo.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-chevron-right"></i> Rodas Exclusivas</li>
+                        <li><i class="fas fa-chevron-right"></i> Kits Aerodinâmicos</li>
+                        <li><i class="fas fa-chevron-right"></i> Envelopamento</li>
+                        <li><i class="fas fa-chevron-right"></i> Interior Customizado</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Manutenção Preventiva</h3>
+                    <p>Serviços completos de manutenção para garantir longevidade e performance.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-chevron-right"></i> Revisões Completas</li>
+                        <li><i class="fas fa-chevron-right"></i> Troca de Óleo</li>
+                        <li><i class="fas fa-chevron-right"></i> Diagnósticos</li>
+                        <li><i class="fas fa-chevron-right"></i> Manutenção Corretiva</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Performance Avançada</h3>
+                    <p>Ajustes finos e modificações especializadas para entusiastas da velocidade.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-chevron-right"></i> Dyno Tuning</li>
+                        <li><i class="fas fa-chevron-right"></i> Roll Cage</li>
+                        <li><i class="fas fa-chevron-right"></i> Sistemas de Arrefecimento</li>
+                        <li><i class="fas fa-chevron-right"></i> Telemetria</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">
+                    <i class="fas fa-car"></i>
+                    Nossa Galeria
+                </div>
+                <h2 class="section-title">
+                    Nossos Projetos:
+                    <span class="highlight">A Arte da Performance</span>
+                </h2>
+                <p class="section-description">
+                    Explore nossa galeria e veja a paixão e a precisão que dedicamos a cada projeto. 
+                    De transformações radicais a ajustes finos, cada imagem conta a história de um 
+                    veículo que teve seu potencial liberado.
+                </p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/carro_modificado_1.jpg" alt="Carro esportivo modificado 1">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Carros Modificados</span>
+                            <p>Carro esportivo modificado 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/carro_modificado_2.jpg" alt="Carro esportivo modificado 2">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Carros Modificados</span>
+                            <p>Carro esportivo modificado 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/oficina_moderna_1.jpg" alt="Oficina moderna 1">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Nossa Oficina</span>
+                            <p>Oficina moderna 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/oficina_moderna_2.jpg" alt="Oficina moderna 2">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Nossa Oficina</span>
+                            <p>Oficina moderna 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/motor_tunado_1.jpg" alt="Motor tunado 1">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Preparação de Motores</span>
+                            <p>Motor tunado 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/motor_tunado_2.jpg" alt="Motor tunado 2">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Preparação de Motores</span>
+                            <p>Motor tunado 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/interior_personalizado_1.png" alt="Interior personalizado 1">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Personalização</span>
+                            <p>Interior personalizado 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/interior_personalizado_2.jpg" alt="Interior personalizado 2">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Personalização</span>
+                            <p>Interior personalizado 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/rodas_esportivas_1.jpg" alt="Rodas esportivas 1">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Rodas e Pneus</span>
+                            <p>Rodas esportivas 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/rodas_esportivas_2.jpg" alt="Rodas esportivas 2">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Rodas e Pneus</span>
+                            <p>Rodas esportivas 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/freios_alta_performance_1.jpg" alt="Freios alta performance 1">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Freios</span>
+                            <p>Freios alta performance 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/freios_alta_performance_2.jpg" alt="Freios alta performance 2">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Freios</span>
+                            <p>Freios alta performance 2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">
+                    <i class="fas fa-star"></i>
+                    Depoimentos
+                </div>
+                <h2 class="section-title">
+                    O Que Nossos Clientes Dizem:
+                    <span class="highlight">Histórias de Satisfação</span>
+                </h2>
+                <p class="section-description">
+                    Nada fala mais alto do que a voz de nossos clientes. Veja o que eles têm a dizer 
+                    sobre a experiência de transformar seus veículos conosco.
+                </p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Carlos Silva</h4>
+                    <p class="testimonial-car">Honda Civic Si</p>
+                    <p class="testimonial-text">
+                        "Transformaram meu Civic completamente! O ganho de potência foi incrível e o acabamento ficou perfeito. Recomendo demais!"
+                    </p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Marina Santos</h4>
+                    <p class="testimonial-car">Volkswagen Golf GTI</p>
+                    <p class="testimonial-text">
+                        "Profissionais excepcionais! Cuidaram do meu Golf GTI com muito carinho e atenção aos detalhes. Resultado superou minhas expectativas."
+                    </p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Roberto Oliveira</h4>
+                    <p class="testimonial-car">Ford Mustang GT</p>
+                    <p class="testimonial-text">
+                        "A preparação do motor do meu Mustang ficou sensacional. Equipe técnica muito competente e atendimento de primeira qualidade."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">
+                    <i class="fas fa-phone"></i>
+                    Contato
+                </div>
+                <h2 class="section-title">
+                    Fale Conosco:
+                    <span class="highlight">Sua Jornada Começa Aqui</span>
+                </h2>
+                <p class="section-description">
+                    Pronto para levar seu carro ao próximo nível? Entre em contato conosco para 
+                    solicitar um orçamento, tirar dúvidas ou agendar uma visita.
+                </p>
+            </div>
+            
+            <div class="contact-form-container">
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Conte-nos sobre seu projeto ou dúvidas..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-envelope"></i>
+                        Enviar Mensagem
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-media">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">
+                    <i class="fab fa-instagram"></i>
+                    Redes Sociais
+                </div>
+                <h2 class="section-title">
+                    Siga-nos nas Redes Sociais:
+                    <span class="highlight">Conecte-se com a Paixão</span>
+                </h2>
+                <p class="section-description">
+                    Não perca nenhuma novidade! Siga-nos em nossas redes sociais para acompanhar 
+                    nossos projetos mais recentes, dicas de performance, eventos e muito mais.
+                </p>
+            </div>
+            
+            <div class="social-buttons">
+                <button class="btn btn-social">
+                    <i class="fab fa-instagram"></i>
+                    Instagram
+                </button>
+                <button class="btn btn-social">
+                    <i class="fab fa-facebook"></i>
+                    Facebook
+                </button>
+                <button class="btn btn-social">
+                    <i class="fab fa-youtube"></i>
+                    YouTube
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Oficina Preparadora</h3>
+                    <p>Especialistas em preparação automotiva, transformando sonhos em realidade sobre rodas.</p>
+                    <div class="footer-social">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li>Preparação de Motores</li>
+                        <li>Suspensão e Freios</li>
+                        <li>Estética Automotiva</li>
+                        <li>Personalização</li>
+                        <li>Manutenção Preventiva</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(11) 99999-9999</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contato@oficinapreparadora.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>São Paulo, SP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Oficina Preparadora. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="floating-whatsapp" onclick="openWhatsApp()">
+        <i class="fab fa-whatsapp"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
