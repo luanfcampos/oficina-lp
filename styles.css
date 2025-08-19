@@ -166,6 +166,8 @@ section {
 /* Services Section */
 .services {
     background: #111111;
+    position: relative;
+    z-index: 3;
 }
 
 .services-grid {
